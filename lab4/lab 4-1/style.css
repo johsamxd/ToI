@@ -1,0 +1,80 @@
+body{
+    height: 100vh;
+}
+
+.page {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  a {
+    color: white;
+  }
+  .header, footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+  }
+  .logo {
+    font-size: 20px;
+    width: 200px;
+    display: block;
+  }
+  .menu {
+    font-size: 16px;
+    display: block;
+  }
+  
+  .menu ul {
+    margin-right: 5px;
+    display: flex;
+  }
+  .menu li {
+    margin-right: 15px;
+  }
+  
+  .content{
+    padding: 0 10%;
+    margin: 20px 0;
+    flex-grow: 1;
+  }
+  .columns {
+    width: 800px;
+    font-size: 14px;
+    display: flex;
+  }
+  
+  .left {
+    width: 200px;
+    margin-right: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: block;
+  }
+  .right {
+    width: 590px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    display: block;
+  }
+  
+  .left a {
+    margin-top: 5px;
+    display: block;
+  }
